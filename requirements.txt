@@ -1,0 +1,4 @@
+web3==5.24.0
+flask==1.1.2
+requests==2.25.1
+gunicorn==20.0.4

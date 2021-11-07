@@ -1,0 +1,89 @@
+ .u-section-1 {
+  background-image: url("images/blockidentitycons.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 800px;
+}
+
+.u-section-1 .u-text-1 {
+  font-size: 5rem;
+  font-weight: 400;
+  margin: 265px 328px 0 0;
+}
+
+.u-section-1 .u-form-1 {
+  height: 54px;
+  margin: 24px 840px 60px 0;
+}
+
+.u-section-1 .u-btn-1 {
+  background-image: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-style: solid;
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 660px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-right: 370px;
+  }
+
+  .u-section-1 .u-form-1 {
+    margin-right: 640px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 506px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-right: 150px;
+    font-size: 4.5rem;
+  }
+
+  .u-section-1 .u-form-1 {
+    margin-right: 420px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 380px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 4.0625rem;
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-form-1 {
+    height: 119px;
+    margin-right: 170px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 239px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 3.4375rem;
+    width: auto;
+    margin-right: 32px;
+  }
+
+  .u-section-1 .u-form-1 {
+    margin-right: 40px;
+  }
+}
