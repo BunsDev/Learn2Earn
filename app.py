@@ -3,7 +3,7 @@ import requests
 from web3 import Web3
 from flask import Flask, render_template, request
 
-L2E_WALLET_ADDRESS = "0x4913F4b5294C4B56E4340FD869E7228a2F037f6a"
+L2E_WALLET_ADDRESS = "<ADD_WALLET_ADDRESS>"
 CONTRACT_ADDRESS = "0x505Bc7FE3F586cd58dc1a4c68B3567f70E05c32D"
 PRIVATE_KEY = "<ADD_PRIVATE_KEY>"
 to_address = ""
@@ -24,10 +24,6 @@ def miscellaneous():
 
 def send_learn_tokens(to_address):
     to_address = Web3.toChecksumAddress(to_address)
-    if(to_address == "0x2632d76c8b68ebcf7a2bced035c999e7f9771997"):
-        to_address = "0x2632D76C8b68eBCf7a2BceD035C999E7f9771997"
-    elif(to_address == "0x4913f4b5294c4b56e4340fd869e7228a2f037f6a"):
-        to_address = "0x4913F4b5294C4B56E4340FD869E7228a2F037f6a"
     ftm = "https://rpc.ftm.tools"
     web3 = Web3(Web3.HTTPProvider(ftm))
     contract = web3.eth.contract(address=CONTRACT_ADDRESS, abi=ABI)
