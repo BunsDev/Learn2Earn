@@ -5,7 +5,7 @@ from flask import Flask, render_template, request
 
 L2E_WALLET_ADDRESS = "0x4913F4b5294C4B56E4340FD869E7228a2F037f6a"
 CONTRACT_ADDRESS = "0x505Bc7FE3F586cd58dc1a4c68B3567f70E05c32D"
-PRIVATE_KEY = "5e16488ee09e7f15d70a0b94f116b89c34263f226e698cc3763945cb783b758c"
+PRIVATE_KEY = "<ADD_PRIVATE_KEY>"
 to_address = ""
 
 with open("Solidity-Contracts/ABI.json") as f:
